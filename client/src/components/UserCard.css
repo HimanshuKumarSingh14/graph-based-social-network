@@ -1,0 +1,13 @@
+.user-card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.user-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+
+.user-card-info { flex: 1; min-width: 0; }
+.user-card-info h3 { font-size: 0.98rem; font-weight: 700; margin-bottom: 2px; }
+.user-card-email { font-size: 0.8rem; color: var(--text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.user-card-bio { font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px; }

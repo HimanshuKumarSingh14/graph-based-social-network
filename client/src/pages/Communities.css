@@ -1,0 +1,7 @@
+.communities-page { display: flex; flex-direction: column; gap: 20px; }
+.communities-graph-card { padding: 20px; }
+.communities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}

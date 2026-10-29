@@ -1,0 +1,32 @@
+  .analytics-card {
+  border-radius: var(--radius-md);
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid var(--border-soft);
+}
+
+.analytics-card-title {
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.analytics-card-value {
+  font-family: "Sora", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.tone-blue { background: var(--blue-bg); }
+.tone-blue .analytics-card-title { color: var(--blue); }
+
+.tone-green { background: var(--green-bg); }
+.tone-green .analytics-card-title { color: var(--green); }
+
+.tone-orange { background: var(--orange-bg); }
+.tone-orange .analytics-card-title { color: var(--orange); }
+
+.tone-pink { background: var(--pink-bg); }
+.tone-pink .analytics-card-title { color: var(--pink); }

@@ -1,0 +1,53 @@
+.stat-card {
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+}
+
+.stat-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stat-card-title {
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.stat-card-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-card-value {
+  font-family: "Sora", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.stat-card-growth {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--green);
+}
+
+.tone-blue .stat-card-title { color: var(--blue); }
+.tone-blue .stat-card-icon { background: var(--blue-bg); color: var(--blue); }
+
+.tone-green .stat-card-title { color: var(--green); }
+.tone-green .stat-card-icon { background: var(--green-bg); color: var(--green); }
+
+.tone-orange .stat-card-title { color: var(--orange); }
+.tone-orange .stat-card-icon { background: var(--orange-bg); color: var(--orange); }
+
+.tone-pink .stat-card-title { color: var(--pink); }
+.tone-pink .stat-card-icon { background: var(--pink-bg); color: var(--pink); }

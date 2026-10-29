@@ -1,0 +1,29 @@
+.profile-page { display: flex; flex-direction: column; gap: 20px; }
+
+.profile-hero {
+  padding: 26px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.profile-avatar { width: 76px; height: 76px; font-size: 1.6rem; flex-shrink: 0; }
+
+.profile-hero-info { flex: 1; min-width: 0; }
+.profile-hero-info h2 { font-size: 1.25rem; }
+.profile-email { display: flex; align-items: center; gap: 6px; color: var(--text-muted); font-size: 0.85rem; margin-top: 6px; }
+.profile-bio { margin-top: 10px; color: var(--text-secondary); font-size: 0.9rem; }
+
+.profile-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.profile-stat { padding: 20px; text-align: center; }
+.profile-stat-value { font-family: "Sora", sans-serif; font-size: 1.7rem; font-weight: 700; }
+.profile-stat span { font-size: 0.8rem; color: var(--text-secondary); }
+
+@media (max-width: 700px) {
+  .profile-hero { flex-direction: column; }
+  .profile-stats { grid-template-columns: repeat(2, 1fr); }
+}

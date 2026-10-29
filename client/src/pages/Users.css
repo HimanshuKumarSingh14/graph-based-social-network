@@ -1,0 +1,42 @@
+.users-page { display: flex; flex-direction: column; gap: 18px; }
+
+.users-toolbar {
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.users-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 220px;
+  color: var(--text-muted);
+}
+.users-search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 0.92rem;
+  background: transparent;
+  color: var(--text-primary);
+}
+
+.users-toast {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent-dark);
+  background: var(--accent-light);
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+.users-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}

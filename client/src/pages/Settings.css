@@ -1,0 +1,12 @@
+.settings-page { display: flex; flex-direction: column; gap: 18px; max-width: 640px; }
+.settings-section { padding: 20px; }
+.settings-section .section-header h2 { display: flex; align-items: center; gap: 8px; font-size: 1rem; margin-bottom: 4px; }
+
+.settings-row { display: flex; justify-content: space-between; align-items: center; }
+.settings-row-label { font-size: 0.78rem; color: var(--text-muted); }
+.settings-row-value { font-size: 0.92rem; font-weight: 600; margin-top: 2px; }
+
+.settings-form { display: flex; flex-direction: column; gap: 12px; margin-top: 6px; }
+.settings-toggles { display: flex; flex-direction: column; gap: 12px; margin-top: 10px; }
+
+.settings-saved { margin-left: 12px; font-size: 0.8rem; color: var(--green); font-weight: 600; }
